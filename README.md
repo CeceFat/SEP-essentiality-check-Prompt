@@ -82,6 +82,21 @@ The underlying analysis methodology draws from established patent law and SEP pr
 
 ---
 
+## Repository Structure | 倉庫結構
+
+```
+SEP-essentiality-check-Prompt/
+├── README.md
+├── reports/            — De-identified analysis reports (v2.0+)
+│                         去識別化分析報告（v2.0+）
+├── case_studies/       — Judgment-based analysis summaries (planned)
+│                         基於判決之分析摘要（規劃中）
+└── archive/            — Earlier format outputs (pre-v2.0, historical)
+                          早期格式產出（v2.0 以前，歷史參考）
+```
+
+---
+
 ## What is NOT in This Repository | 本倉庫不包含的內容
 
 - ❌ The prompt / system instruction used to generate analyses
@@ -114,11 +129,13 @@ The underlying analysis methodology draws from established patent law and SEP pr
 |---|---|---|
 | v0.1 | 2025-07 | Initial single-pass SEP analysis prompt (included in repo as historical reference) |
 | v2.0+ | 2026 | Significantly evolved architecture with structured claim construction protocol, multi-tier mapping system, dialectical analysis, and quality control checklist. Outputs from this version are published here; the prompt itself is not public. |
+| v2.4 | 2026-03 | Current version. Added Decision Tree verdict (replacing numerical scoring), programmatic search protocol for large standards (>100p), output de-identification, and dual deployment mode (Claude / general LLM). |
 
 | 版本 | 日期 | 說明 |
 |---|---|---|
 | v0.1 | 2025-07 | 初始單次 SEP 分析提示詞（作為歷史參考收錄於 repo 中） |
 | v2.0+ | 2026 | 大幅演進之架構，包含結構化 claim construction 協議、多層級比對系統、辯證分析與品質管控檢核表。本版產出之分析成果公開於此；提示詞本身不公開。 |
+| v2.4 | 2026-03 | 現行版本。新增 Decision Tree 判定（取代數字評分）、大型標準文件程式性搜索協議（>100 頁）、輸出去識別化、雙部署模式（Claude / 通用 LLM）。 |
 
 ---
 
